@@ -266,7 +266,7 @@ function chances(hand, p=8; n=10000)
         w += r==1
         s += r==0
     end
-    return w / n, s / n
+    return round((w / n) * 100, digits = 2), round((s / n) * 100, digits = 2)
 end
 chances(s::AbstractString, p=8; n=10000) = chances(parse_hand(s), p; n=n)
 
