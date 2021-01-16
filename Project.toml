@@ -1,6 +1,6 @@
 name = "PokerHands"
 uuid = "d4288673-7f65-4855-87cb-44a8d8d30c95"
-authors = ["Raluca Jiglau <raluca.jiglau@protonmail.com> and contributors"]
+authors = ["Raluca Jiglau and contributors"]
 version = "0.1.0"
 
 [compat]
