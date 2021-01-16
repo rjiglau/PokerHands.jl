@@ -3,6 +3,12 @@ uuid = "d4288673-7f65-4855-87cb-44a8d8d30c95"
 authors = ["Raluca Jiglau and contributors"]
 version = "0.1.0"
 
+[deps]
+Cards = "fcda22a9-0d6a-4819-86f5-13bd25ca17c4"
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
 [compat]
 julia = "1"
 
